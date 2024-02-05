@@ -7,7 +7,7 @@ public:
     int data;           // Data of the node
     Node* next;         // Pointer to the next node in the list
 
-    // Constructor to initialize the node with data and nullptr as next pointers
+    // Constructor to initialize the node with data and nullptr as next pointers add
     Node(int data) {
         this->data = data;
         this->next = nullptr;
@@ -120,7 +120,9 @@ public:
 int main() {
     LinkedList llist;
 
-    // Insert elements
+    // Insert elements below
+    //change
+    //changes made
     llist.insertAtEnd(7);
     llist.insertAtEnd(8);
     llist.insertAtEnd(9);
