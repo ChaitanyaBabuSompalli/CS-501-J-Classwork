@@ -4,12 +4,12 @@
 class Book {
 private:
     // Member variables
-    std::string title;
-    int year_published;
-    double price;
-    bool is_hardcover;
-    char initial;
-//changes
+    std::string title;          // Title of the book
+    int year_published;         // Year the book was published
+    double price;               // Price of the book
+    bool is_hardcover;          // Indicates if the book is hardcover
+    char initial;               // Initial of the author's last name
+
 public:
     // Constructor
     Book(const std::string& title, int year_published, double price, bool is_hardcover, char initial) :
@@ -82,4 +82,5 @@ int main() {
 
     return 0;
 }
+
 
