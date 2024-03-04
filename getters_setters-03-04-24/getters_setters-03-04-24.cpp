@@ -9,7 +9,7 @@ private:
     double price;
     bool is_hardcover;
     char initial;
-
+//changes
 public:
     // Constructor
     Book(const std::string& title, int year_published, double price, bool is_hardcover, char initial) :
