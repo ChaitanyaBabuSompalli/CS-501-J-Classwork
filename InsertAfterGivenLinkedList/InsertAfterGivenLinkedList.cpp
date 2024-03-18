@@ -5,7 +5,7 @@ using namespace std;
 class Node {
 public:
     int data;       // Data stored in the node
-    Node* next;     // Pointer to the next node in the list
+    Node* next;     // Pointer to the next node in the list dsdf
 };
 
 // Given a node prev_node, insert a new
